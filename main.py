@@ -7,20 +7,20 @@ from features.review import get_steam_review_info
 from features.steamstore import get_steam_store_info
 
 # CONFIG
-STEAM_API_KEY = os.environ.get("STEAM_API_KEY")
+STEAM_API_KEY = '6DD2823D2FCC877E350CCE89F24C1D05'
 # get from https://steamcommunity.com/dev/apikey
-STEAM_USER_ID = os.environ.get("STEAM_USER_ID")
+STEAM_USER_ID = '76561197960287930'
 # get from your steam profile https://steamcommunity.com/profiles/{STEAM_USER_ID}
-NOTION_API_KEY = os.environ.get("NOTION_API_KEY")
+NOTION_API_KEY = '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'
 # https://developers.notion.com/docs/create-a-notion-integration
-NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
+NOTION_DATABASE_ID = '248955bd29198032946adb7b0ba4b8cf'
 # https://developers.notion.com/reference/retrieve-a-database
 # OPTIONAL
-include_played_free_games = os.environ.get("include_played_free_games") or 'true'
+include_played_free_games = 'true'
 #set to 'true' by default
-enable_item_update = os.environ.get("enable_item_update") or 'true'
+enable_item_update = 'true'
 #set to 'true' by default
-enable_filter = os.environ.get("enable_filter") or 'false'
+enable_filter = 'false'
 #set to 'false' by default 
 
 # MISC
